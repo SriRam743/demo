@@ -1,0 +1,41 @@
+/* Page alignment */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f6f8;
+}
+
+/* Profile card container */
+.card {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bio text */
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin: 15px 0;
+  
+}
+
+/* Button styles */
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
